@@ -159,11 +159,11 @@ jxl-oxide = { workspace = true, optional = true }
 martin-tile-utils.workspace = true
 mbtiles = { workspace = true, optional = true }
 mlt-core = { workspace = true, optional = true }
-moka = { workspace = true, features = ["future", "quanta"] }
+moka = { workspace = true, features = ["future"] }
 multiversion = { workspace = true, optional = true }
-object_store = { workspace = true, optional = true }
+object_store = { version = "0.14.1", optional = true, default-features = false }
 pbf_font_tools = { workspace = true, optional = true }
-pmtiles = { workspace = true, optional = true }
+pmtiles = { workspace = true, optional = true, default-features = false }
 png = { workspace = true, optional = true }
 postgres = { workspace = true, optional = true }
 prometheus = { workspace = true, optional = true }
